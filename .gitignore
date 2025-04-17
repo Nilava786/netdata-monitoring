@@ -1,0 +1,26 @@
+# Ignore Docker-related files
+*.pid
+*.log
+
+# Node/Docker build artifacts (just in case)
+node_modules/
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+.env.local
+
+# OS-generated files
+*.swp
+*.swo
